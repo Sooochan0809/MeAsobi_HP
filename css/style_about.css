@@ -267,3 +267,124 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+@media (max-width: 480px) {
+  /* 全体を縦並びに */
+  .aboutproject {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /* ロゴサイズ調整 */
+  .aboutproject .frame {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+
+  /* ライン調整 */
+  .aboutproject .line {
+    width: 90%;
+    left: 5%;
+    top: 90px;
+  }
+
+  /* ナビゲーション調整 */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  .aboutproject .frame-2,
+  .aboutproject .frame-3,
+  .aboutproject .frame-4 {
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .aboutproject .text-wrapper-6,
+  .aboutproject .text-wrapper-7,
+  .aboutproject .text-wrapper-8 {
+    position: static;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  /* セクション共通 */
+  .aboutproject .overlap-group,
+  .aboutproject .overlap-8,
+  .aboutproject .overlap-9 {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* 円形装飾 */
+  .aboutproject .ellipse,
+  .aboutproject .div,
+  .aboutproject .ellipse-2 {
+    width: 60vw;
+    height: 60vw;
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* テキストと画像の位置調整 */
+  .aboutproject .group-wrapper,
+  .aboutproject .group-40,
+  .aboutproject .element-wrapper,
+  .aboutproject .element-4 {
+    position: relative;
+    left: 0;
+    top: auto;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .aboutproject .group-wrapper {
+    width: 90%;
+  }
+
+  .aboutproject .group-40,
+  .aboutproject .group-41 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutproject .text-wrapper,
+  .aboutproject .text-wrapper-2,
+  .aboutproject .text-wrapper-3,
+  .aboutproject .text-wrapper-4,
+  .aboutproject .text-wrapper-5,
+  .aboutproject .VR {
+    position: static;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .aboutproject .element-2,
+  .aboutproject .element-3,
+  .aboutproject .element-4 {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
