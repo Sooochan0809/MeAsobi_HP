@@ -177,3 +177,95 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+@media (max-width: 768px) {
+  /* ナビゲーションを縦並び＆中央寄せに */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    padding-right: 20px;
+  }
+
+  .home .frame,
+  .home .div-wrapper,
+  .home .frame-2 {
+    position: static;
+    width: auto;
+    height: auto;
+    background: none;
+    margin-top: 10px;
+  }
+
+  .home .text-wrapper,
+  .home .div,
+  .home .text-wrapper-2 {
+    position: static;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  /* ロゴのサイズ調整 */
+  .home .img {
+    width: 70%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+
+  /* 横線の幅調整 */
+  .home .line {
+    width: 90%;
+    left: 5%;
+    top: 100px;
+  }
+
+  /* メインビジュアルを中央揃え */
+  .home .overlap-group {
+    width: 90%;
+    left: 5%;
+    top: 180px;
+  }
+
+  .home .ellipse,
+  .home .ellipse-2,
+  .home .ellipse-3,
+  .home .mask-group {
+    width: 70vw;
+    height: 70vw;
+    max-width: 100%;
+    left: 0;
+  }
+
+  .home .group {
+    width: 30vw;
+    height: auto;
+    top: 140px;
+    left: 40vw;
+  }
+
+  .home .component {
+    width: 80%;
+    left: 10%;
+    top: 400px;
+  }
+
+  .home .text-wrapper-3 {
+    font-size: 16px;
+    width: 100%;
+    left: 0;
+    top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .component {
+    top: 360px;
+  }
+
+  .home .text-wrapper-3 {
+    font-size: 14px;
+  }
+}
