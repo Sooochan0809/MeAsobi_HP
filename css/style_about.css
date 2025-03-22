@@ -267,3 +267,9 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+@media (max-width:767px) {
+  .row{
+      flex-direction: column;
+  }
+}
