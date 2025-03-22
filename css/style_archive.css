@@ -438,3 +438,155 @@
   background-color: #d9d9d9; /* 通常時は薄いグレー */
   position: absolute;
 }
+
+@media (max-width: 480px) {
+  .archive {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .archive .div {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .archive .overlap-group {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+  }
+
+  /* ロゴ調整 */
+  .archive .frame {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* 横線 */
+  .archive .line {
+    width: 90%;
+    left: 5%;
+    top: 90px;
+  }
+
+  /* ナビゲーション調整 */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .archive .div-wrapper,
+  .archive .frame-2,
+  .archive .frame-3 {
+    position: static;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+
+  .archive .text-wrapper-2,
+  .archive .text-wrapper-3,
+  .archive .text-wrapper-4 {
+    position: static;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  /* 見出しテキスト調整 */
+  .archive .group,
+  .archive .group-2 {
+    position: static;
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .archive .text-wrapper-5,
+  .archive .text-wrapper-6 {
+    font-size: 20px;
+    white-space: normal;
+  }
+
+  .archive .text-wrapper-7,
+  .archive .text-wrapper-8 {
+    position: static;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* テキストブロック */
+  .archive .element,
+  .archive .p {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  /* スライダー画像サイズ調整 */
+  .archive .overlap,
+  .archive .rectangle-wrapper {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background-size: cover;
+  }
+
+  .archive .rectangle {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  /* 矢印ボタン */
+  .archive .polygon,
+  .archive .polygon-wrapper,
+  .archive .img-wrapper,
+  .archive .polygon-3 {
+    position: static;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .archive .img,
+  .archive .polygon-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  /* インジケーター（上下共通） */
+  .archive .ellipse,
+  .archive .ellipse-2,
+  .archive .ellipse-3,
+  .archive .ellipse-4,
+  .archive .ellipse-5,
+  .archive .ellipse-6,
+  .archive .ellipse-7,
+  .archive .ellipse-8,
+  .archive .ellipse-9 {
+    position: static;
+    margin: 5px;
+    display: inline-block;
+  }
+
+  /* インジケーターのグループ配置 */
+  .indicator-top,
+  .indicator-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
