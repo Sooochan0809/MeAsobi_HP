@@ -277,3 +277,127 @@
   left: 0;
   object-fit: cover;
 }
+
+@media (max-width: 480px) {
+  .member {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .member .overlap-group-wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .member .overlap-group {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  /* ロゴ */
+  .member .frame {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+
+  /* 横線 */
+  .member .line {
+    width: 90%;
+    left: 5%;
+    top: 90px;
+  }
+
+  /* ナビゲーション */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .member .div-wrapper,
+  .member .div,
+  .member .frame-2 {
+    position: static;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+
+  .member .text-wrapper,
+  .member .text-wrapper-2,
+  .member .text-wrapper-3 {
+    position: static;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  /* 人物画像の位置・サイズ調整 */
+  .member .overlap,
+  .member .overlap-2 {
+    position: relative;
+    width: 70vw;
+    height: 70vw;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 40px auto 20px;
+  }
+
+  .member .ellipse,
+  .member .ellipse-2,
+  .member .mask-group,
+  .member .img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  /* 名前と肩書き・仮名 */
+  .member .group {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: auto;
+    left: auto;
+  }
+
+  .member .div-3,
+  .member .div-4 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .member .text-wrapper-8,
+  .member .text-wrapper-9 {
+    position: relative;
+    text-align: center;
+    width: auto;
+    top: auto;
+    left: auto;
+    margin-bottom: 20px;
+  }
+
+  /* 各自の説明文 */
+  .member .p,
+  .member .div-2 {
+    position: static;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
