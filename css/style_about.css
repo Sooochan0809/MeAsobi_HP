@@ -56,7 +56,7 @@
   top: 0;
   left: 457px;
   border-radius: 275px;
-  border: 10px dotted; /* ←ここをdottedに */
+  border: 10px dotted;
   border-color: #ffa500;
   transform: rotate(-90deg);
 }
@@ -303,10 +303,4 @@
   position: absolute;
   letter-spacing: 0;
   line-height: normal;
-}
-
-@media (max-width:767px) {
-  .row {
-    flex-direction: column;
-  }
 }

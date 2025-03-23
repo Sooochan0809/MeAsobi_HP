@@ -12,7 +12,6 @@
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
-  
 }
 
 .home .frame {
@@ -126,7 +125,7 @@
   top: 0;
   left: 457px;
   border-radius: 275px;
-  border: 10px dotted; /* ←ここをdottedに */
+  border: 10px dotted;
   border-color: #ffa500;
   transform: rotate(-90deg);
 }
@@ -185,8 +184,8 @@
   line-height: normal;
 }
 
+/* メディアクエリ（スマホ表示対応） */
 @media (max-width: 480px) {
-  /* ナビゲーションを縦並びにして右寄せ */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -212,7 +211,6 @@
     text-align: right;
   }
 
-  /* ロゴ画像の中央配置とサイズ調整 */
   .home .img {
     width: 80%;
     max-width: 300px;
@@ -222,14 +220,12 @@
     top: 20px;
   }
 
-  /* 横線のサイズ・位置調整 */
   .home .line {
     width: 90%;
     left: 5%;
     top: 100px;
   }
 
-  /* メインのオーバーラップコンテンツ */
   .home .overlap-group {
     width: 90%;
     left: 5%;
@@ -255,7 +251,6 @@
     left: 45vw;
   }
 
-  /* 「め遊びプロジェクトとは？」ボタン */
   .home .component {
     width: 90%;
     left: 5%;
