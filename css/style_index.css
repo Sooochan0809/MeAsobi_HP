@@ -1,16 +1,15 @@
 .home {
-  background-color: #ffffff1a;
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+   background-color: #ffffff1a;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  width: 100%;
 }
 
 .home-wrapper {
-  width: 1440px; /* archiveと合わせるなら */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   position: relative;
 }
 

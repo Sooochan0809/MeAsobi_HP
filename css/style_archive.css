@@ -1,8 +1,12 @@
 .archive {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: #ffffff1a;
+  position: relative;
   width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .archive .div {
