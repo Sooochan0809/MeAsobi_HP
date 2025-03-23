@@ -4,19 +4,14 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 100%;
 }
 
-.member .overlap-group-wrapper {
-  background-color: #ffffff1a;
-  width: 1440px;
-  height: 512px;
-}
-
-.member .overlap-group {
+.member-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   position: relative;
-  height: 512px;
-  background-color: #fffefd;
+  margin-right: 247px
 }
 
 .member .frame {

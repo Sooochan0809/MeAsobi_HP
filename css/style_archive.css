@@ -1,5 +1,4 @@
 .archive {
-  /* background-color: #ffffff1a; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7,12 +6,9 @@
 }
 
 .archive .div {
-  /* background-color: #ffffff1a; */
-  overflow: hidden;
-  /* border: 1px solid; */
-  /* border-color: #000000; */
-  width: 1440px;
-  height: 1508px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -255,7 +251,8 @@
   height: 10px;
   border-radius: 5px;
 
-  background-color: #ccc; /* 通常状態（薄い） */
+  background-color: #ccc;
+  /* 通常状態（薄い） */
 }
 
 .archive .ellipse-2 {
@@ -402,7 +399,8 @@
 .ellipse-2.active,
 .ellipse-3.active,
 .ellipse-4.active {
-  background-color: #333 !important; /* アクティブ状態（濃い） */
+  background-color: #333 !important;
+  /* アクティブ状態（濃い） */
 }
 
 /* 上段インジケーター（スライダーA）用のアクティブスタイル */
@@ -410,7 +408,8 @@
 .ellipse-2.active,
 .ellipse-3.active,
 .ellipse-4.active {
-  background-color: #333; /* 濃いグレー（黒っぽい） */
+  background-color: #333;
+  /* 濃いグレー（黒っぽい） */
 }
 
 /* 下段インジケーター（スライダーB）用のアクティブスタイル */
@@ -419,7 +418,8 @@
 .ellipse-7.active,
 .ellipse-8.active,
 .ellipse-9.active {
-  background-color: #333; /* 濃いグレー（黒っぽい） */
+  background-color: #333;
+  /* 濃いグレー（黒っぽい） */
 }
 
 /* 通常のインジケータースタイル（例） */
@@ -435,7 +435,8 @@
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  background-color: #d9d9d9; /* 通常時は薄いグレー */
+  background-color: #d9d9d9;
+  /* 通常時は薄いグレー */
   position: absolute;
 }
 

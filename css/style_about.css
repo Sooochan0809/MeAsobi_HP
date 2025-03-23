@@ -5,6 +5,14 @@
   justify-content: center;
   width: 100%;
 }
+
+.aboutproject-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .aboutproject .frame {
   position: absolute;
   width: 400px;
@@ -12,6 +20,7 @@
   top: 50px;
   left: 219px;
 }
+
 .aboutproject .line {
   position: absolute;
   width: 1393px;
@@ -20,6 +29,7 @@
   left: 23px;
   object-fit: cover;
 }
+
 .aboutproject .overlap-group {
   position: absolute;
   width: 1007px;
@@ -27,6 +37,7 @@
   top: 205px;
   left: 219px;
 }
+
 .aboutproject .ellipse {
   position: absolute;
   width: 540px;
@@ -36,6 +47,7 @@
   background-color: #fffeee;
   border-radius: 270px;
 }
+
 .aboutproject .div {
   position: absolute;
   width: 550px;
@@ -46,6 +58,7 @@
   border: 10px dashed;
   border-color: #ffa500;
 }
+
 .aboutproject .ellipse-2 {
   position: absolute;
   width: 540px;
@@ -57,6 +70,7 @@
   border: 5px solid;
   border-color: #ffa500;
 }
+
 .aboutproject .group-wrapper {
   position: absolute;
   width: 461px;
@@ -64,9 +78,11 @@
   top: 242px;
   left: 39px;
 }
+
 .aboutproject .group {
   height: 65px;
 }
+
 .aboutproject .group-40 {
   position: absolute;
   width: 305px;
@@ -74,6 +90,7 @@
   top: 170px;
   left: 600px;
 }
+
 .aboutproject .group-41 {
   position: absolute;
   width: 303px;
@@ -81,6 +98,7 @@
   top: 28px;
   left: 0;
 }
+
 .aboutproject .text-wrapper {
   width: 18px;
   top: 8px;
@@ -94,6 +112,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .element-2 {
   position: absolute;
   width: 274px;
@@ -101,6 +120,7 @@
   top: 0;
   left: 0;
 }
+
 .aboutproject .text-wrapper-2 {
   width: 257px;
   top: 64px;
@@ -114,6 +134,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .text-wrapper-3 {
   width: 257px;
   top: 0;
@@ -127,6 +148,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .text-wrapper-4 {
   width: 379px;
   height: 322px;
@@ -141,6 +163,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .overlap-8 {
   position: absolute;
   width: 1007px;
@@ -148,6 +171,7 @@
   top: 893px;
   left: 219px;
 }
+
 .aboutproject .text-wrapper-5 {
   width: 373px;
   height: 322px;
@@ -162,6 +186,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .element-wrapper {
   position: absolute;
   width: 385px;
@@ -169,6 +194,7 @@
   top: 248px;
   left: 77px;
 }
+
 .aboutproject .element-3 {
   position: absolute;
   width: 154px;
@@ -176,6 +202,7 @@
   top: 9px;
   left: 109px;
 }
+
 .aboutproject .overlap-9 {
   position: absolute;
   width: 1007px;
@@ -183,6 +210,7 @@
   top: 1535px;
   left: 219px;
 }
+
 .aboutproject .VR {
   position: absolute;
   width: 379px;
@@ -197,6 +225,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .element-4 {
   position: absolute;
   width: 302px;
@@ -204,6 +233,7 @@
   top: 268px;
   left: 119px;
 }
+
 .aboutproject .frame-2 {
   position: absolute;
   width: 121px;
@@ -212,6 +242,7 @@
   left: 880px;
   background-color: #fffffe;
 }
+
 .aboutproject .text-wrapper-6 {
   width: 112px;
   top: -1px;
@@ -225,6 +256,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .frame-3 {
   position: absolute;
   width: 74px;
@@ -233,6 +265,7 @@
   left: 1026px;
   background-color: #fffffe;
 }
+
 .aboutproject .text-wrapper-7 {
   width: 74px;
   top: -1px;
@@ -246,6 +279,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
 .aboutproject .frame-4 {
   position: absolute;
   width: 109px;
@@ -254,6 +288,7 @@
   left: 1130px;
   background-color: #fffffe;
 }
+
 .aboutproject .text-wrapper-8 {
   width: 97px;
   top: -1px;
@@ -269,7 +304,7 @@
 }
 
 @media (max-width:767px) {
-  .row{
-      flex-direction: column;
+  .row {
+    flex-direction: column;
   }
 }
