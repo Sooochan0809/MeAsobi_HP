@@ -126,7 +126,7 @@
   top: 0;
   left: 457px;
   border-radius: 275px;
-  border: 10px dashed;
+  border: 10px dotted; /* ←ここをdottedに */
   border-color: #ffa500;
   transform: rotate(-90deg);
 }
