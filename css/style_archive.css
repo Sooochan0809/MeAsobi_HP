@@ -1,28 +1,23 @@
 .archive {
   background-color: #ffffff1a;
-  position: relative;
   width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 1440px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .archive .div {
   width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
   position: relative;
 }
 
 .archive .overlap-group {
-  position: absolute;
-  width: 1440px;
-  height: 1508px;
-  top: 0;
-  left: 0;
-  background-color: #fffefd;
+  position: relative; /* ← absoluteをやめる */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0;/* ヘッダーとの間隔を確保 */
 }
 
 .archive .element {

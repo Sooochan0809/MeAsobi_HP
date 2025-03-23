@@ -16,11 +16,26 @@
     .ellipse-9.active {
       background-color: #333;
     }
+
+    html,
+    body {
+      overflow-y: scroll;
+      scrollbar-width: none;
+      /* Firefox */
+      -ms-overflow-style: none;
+      /* IE/Edge */
+    }
+
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar {
+      display: none;
+      /* Chrome/Safari */
+    }
   </style>
 </head>
 
 <body>
-  <div class="archive">
+  <main class="archive">
     <div class="div">
       <div class="overlap-group">
         <p class="element">
@@ -91,9 +106,8 @@
           <div class="ellipse-9"></div>
         </div>
       </div>
-      <img class="IMG" src="" />
     </div>
-  </div>
+  </main>
 </body>
 
 <script>
